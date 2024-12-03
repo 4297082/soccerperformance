@@ -1,0 +1,11 @@
+plot_performance_trend <- function(player_data) {
+  ggplot(player_data, aes(x = match_date, y = rating, color = player)) +
+    geom_line() +
+    geom_point() +
+    labs(
+      title = "Player Performance Trend Over Time",
+      x = "Match Date",
+      y = "Performance Rating"
+    ) +
+    theme_minimal()
+}
