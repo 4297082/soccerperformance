@@ -1,0 +1,10 @@
+Package: soccerperformance
+Type: Package
+Title: Analyze Soccer Players' Performance Ratings
+Version: 0.1.0
+Authors@R: person("Andre", "Barrett", email = "andre.barrett@example.com", role = c("aut", "cre"))
+Description: Tools for analyzing soccer players' performance ratings. Includes functions to calculate averages, conduct statistical comparisons, and create visualizations.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports: ggplot2, dplyr, tidyr, ggsoccer
